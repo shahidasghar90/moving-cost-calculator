@@ -1,0 +1,66 @@
+/* General form styling */
+#moving-calculator-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#moving-calculator-form h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#moving-calculator-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#moving-calculator-form input[type="number"],
+#moving-calculator-form input[type="text"],
+#moving-calculator-form input[type="email"],
+#moving-calculator-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#moving-calculator-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#moving-calculator-form input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#moving-calculator-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+#moving-calculator-form br {
+    display: none; /* Remove unnecessary breaks */
+}
+
+#moving-cost-result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #e9f7ef;
+    color: #2a7d5d;
+    font-weight: bold;
+}
